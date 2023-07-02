@@ -1,4 +1,4 @@
-lib{util}: hxx{util.hxx.}
+lib{util}: hxx{util}
 {
   cxx.export.poptions = "-I$src_base"
 }
