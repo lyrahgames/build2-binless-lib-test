@@ -1,0 +1,9 @@
+cxx.std = latest
+using cxx
+
+hxx{*}: extension = hxx
+cxx{*}: extension = cxx
+
+exe{*}: test = true
+
+import util = build2-test%lib{util}

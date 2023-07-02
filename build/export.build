@@ -1,0 +1,6 @@
+$out_root
+{
+  include util/
+}
+
+export $out_root/util/$import.target
