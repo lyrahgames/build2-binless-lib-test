@@ -2,6 +2,5 @@ lib{util}: hxx{util}
 {
   cxx.export.poptions = "-I$src_base"
 }
-# cxx.poptions =+ "-I$src_base"
 
-hxx{util}: install = include/
+hxx{util}@./: install = include/
